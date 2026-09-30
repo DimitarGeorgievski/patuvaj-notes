@@ -1,0 +1,1 @@
+Requirements and acceptance criteria for Patuvaj.
