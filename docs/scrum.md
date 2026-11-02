@@ -18,3 +18,7 @@
 3. **Development tools:** Scrum Guide does not require specific
    project management or development tools such as Jira, Trello,
    or GitHub Projects. The Scrum Team chooses its own tools.
+
+### Question 4
+
+I placed **"Traveller books a departure"** first because booking a departure is the core functionality of Patuvaj. Without it, travellers cannot use the platform's main purpose. It is more valuable than **"Traveller receives booking confirmation"** because confirmation only happens after a successful booking, while booking itself enables the main user goal.
