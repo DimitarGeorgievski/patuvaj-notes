@@ -1,3 +1,3 @@
 # patuvaj-notes
 Software Engineering course project.
-Patuvaj is a platform for booking local travel experiences.
+Patuvaj helps travellers discover and book local travel experiences across Macedonia.
