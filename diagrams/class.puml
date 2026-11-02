@@ -1,0 +1,36 @@
+@startuml
+class Experience {
+  name
+  description
+  maxGroupSize
+}
+
+class Departure {
+  start
+  remainingPlaces
+  status
+  location
+}
+
+class Booking {
+  groupSize
+  status
+  bookingDate
+}
+
+class Traveller {
+  name
+  email
+}
+
+class Operator {
+  name
+  email
+}
+
+Experience "1" -- "*" Departure
+Departure "1" -- "*" Booking
+Traveller "1" -- "*" Booking
+Operator "1" -- "*" Experience
+
+@enduml

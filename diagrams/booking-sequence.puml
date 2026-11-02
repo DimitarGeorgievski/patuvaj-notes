@@ -1,0 +1,19 @@
+@startuml
+actor Sofia
+participant "Booking UI" as UI
+participant "Booking service" as BS
+database "Availability" as DB
+
+Sofia -> UI : choose departure, 2 people
+UI -> BS : requestBooking(departure, 2)
+BS -> DB : reserve 2 places (atomic)
+
+alt places available
+  DB --> BS : reserved
+  BS --> UI : confirmed
+else sold out meanwhile
+  DB --> BS : not enough places
+  BS --> UI : refused, offer next departure
+end
+
+@enduml
