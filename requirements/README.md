@@ -32,3 +32,17 @@ A concurrent integration test would be needed. It should send two
 booking requests at the same time when only one place remains
 and verify that only one booking succeeds. This tests whether
 the reservation operation is atomic.
+
+## Lab 5.6 — PortSwigger Web Security Academy
+
+### Question 13
+
+Sofia should be able to see her own booking. The operator should
+also be able to see bookings needed to manage departures, and the
+assigned guide should only see the booking information needed for
+the assigned trip.
+
+I would write an authorization integration test where another
+traveller tries to access Sofia's booking using its ID. The request
+must be rejected with a 403 Forbidden or 404 Not Found response.
+I would also verify that Sofia can access her own booking.
