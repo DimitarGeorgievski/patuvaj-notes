@@ -15,3 +15,5 @@ The exercise was completed in a separate GitHub Skills repository.
 ## Exercise Repository
 
 GitHub Skills exercise: [Test with Actions](https://github.com/DimitarGeorgievski/skills-test-with-actions)
+Github Resolve Merge Conflict: [Resolve Merge Conlict](https://github.com/DimitarGeorgievski/skills-resolve-merge-conflicts)
+Github Secure Repository Supply Chain: [Secure Repository Supply Chain](https://github.com/DimitarGeorgievski/skills-secure-repository-supply-chain)
